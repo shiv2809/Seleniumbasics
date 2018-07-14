@@ -29,5 +29,12 @@ public class HelloWorld
 		WebDriver ieBrowser = new InternetExplorerDriver();
 		ieBrowser.get("http://www.maps.google.com");
 		
+		int x;//declaration
+		x = 0;//initialization
+		
+		
+		//variable names must follow 'camelCase' notation
+		WebDriver firefoxBrowser = new FirefoxDriver();
+		
 	}
 }
